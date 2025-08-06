@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="stylesheet.css" />
+    </head>
+    <body>
+        <header>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#curriculo">Currículo</a>
+                    </li>
+                    <li>
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Fale comigo</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="first-page">
+                <h1 style="color: var(--cor-texto-principal);">Antonni Moraes - Desenvolvedor Front-end</h1>
+                <p>Keep it simple!</p>
+            </section>
+            <section style="background-color: var(--cor-footer); padding: 6rem 2rem;" id="sobre">
+                <h1 style="color: var(--cor-texto-principal);">Sobre mim</h1>
+                <article class="about">
+                    <img src="https://lh3.googleusercontent.com/a/ACg8ocKJY-kNg1mJh29ms9PdJEMfQ31A_Ru91owkXgyYMI8uot-aNC4-=s258-c-no" />
+                    <div>
+                        <p>Desenvolvedor Front-end com experiência na criação de páginas responsivas,
+                            componentes reutilizáveis e micro front-end utilizando React, TypeScript, JavaScript,
+                            HTML e CSS. Como estudante de Ciência da Computação, atuei como monitor de
+                            Algoritmos e Programação. Busco oportunidades para aplicar meus conhecimentos no
+                            desenvolvimento de interfaces web bem como adquirir conhecimento em novas
+                            tecnologias.
+                        </p>
+                    </div>
+                </article>
+                <article style="
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                ">
+                    <h2 style="color: var(--cor-texto-principal);">Competências</h2>
+                    <ul style="display: flex; gap: 2rem;">
+                        <li style="
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 1rem;
+                        ">
+                            <img src="./res/react.svg" style="width: 40px"/>
+                            <h3 style="margin: 0;">React Js</h3>
+                        </li>
+                        <li style="
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 1rem;
+                        ">
+                            <img src="./res/react.svg" style="width: 40px"/>
+                            <h3  style="margin: 0;">React Native</h3>
+                        </li>
+                        <li style="
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 1rem;
+                        ">
+                            <img src="./res/typescript.svg" style="width: 40px"/>
+                            <h3  style="margin: 0;">TypeScript</h3>
+                        </li>
+                        <li style="
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 1rem;
+                        ">
+                            <img src="./res/javascript.svg" style="width: 40px"/>
+                            <h3  style="margin: 0;">JavaScript</h3>
+                        </li>
+                        <li style="
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 1rem;
+                        ">
+                            <img src="./res/html-icon.svg" style="width: 40px"/>
+                            <h3  style="margin: 0;">Html</h3>
+                        </li>
+                        <li style="
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 1rem;
+                        ">
+                            <img src="./res/css-icon.svg" style="width: 40px"/>
+                            <h3  style="margin: 0;">Css</h3>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="curriculo">
+                <h1 style="color: var(--cor-texto-principal);">Currículo</h1>
+            </section>
+            <section class="projects" id="projetos">
+                <h1 style="color: var(--cor-texto-principal);">Projetos</h1>
+                <div>
+                    <article class="project-card">
+                        <a href="https://fit-me-front-end.vercel.app/">
+                            <img src="https://res.cloudinary.com/dzok2qpsz/image/upload/v1754278085/fitme_miniature_sjkx9q.png" />
+                        </a>
+                        <div style="justify-content: flex-end; display: flex; flex-direction: column; width: 250px;">
+                            <h3>FitMe</h3>
+                            <p>
+                                Projeto de site de restaurante de comidas veganas 
+                                feito no framework React e TypeScript com deploy no 
+                                Vercel, JsonServer para a fake API, hospedada no 
+                                Render.com (ao abrir o site, pode haver algum atraso 
+                                para reiniciar o server).
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="contato">
+                <h1 style="color: var(--cor-texto-principal);">Fale comigo</h1>
+            </section>
+        </main>
+        <footer>
+            <p>made by Antonni Moraes using:</p>
+            <div style="display: flex; justify-content: center; gap: 10px;">
+                <img src="./res/html-icon.svg" style="width: 30px;"/>
+                <img src="./res/css-icon.svg" style="width: 30px;"/>
+            </div>
+            <p>2025.</p>
+        </footer>
+    </body>
+</html>
