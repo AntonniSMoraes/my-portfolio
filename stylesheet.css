@@ -108,6 +108,33 @@ footer {
     display: flex; gap: 2rem;    
 }
 
+.exp {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.exp a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    padding: .8rem;
+}
+
+.exp-info {
+    max-width: 600px;
+}
+
+.exp-info h2,
+.exp-info h4,
+.exp-info h5 {
+    margin: 0;
+    color: var(--cor-texto-principal);
+}
+
+.exp-info p {
+    text-align: justify;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -144,6 +171,40 @@ footer {
 
 .project-card img {
     height: 400px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 500px;
+}
+
+.message input {
+    padding: 1rem;
+}
+
+.message textarea {
+    padding: 1rem;
+    height: 100px;
+}
+
+.message button {
+    align-self: center;
+    width: 200px;
+    padding: 1rem;
+    background-color: var(--cor-destaque);
+    color: var(--cor-borda);
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    scale: 1;
+    cursor: pointer;
+}
+
+.message button:hover {
+    scale: 1.1;
+    background-color: var(--cor-destaque-hover);
 }
 
 @media(max-width: 600px) {
