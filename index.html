@@ -136,45 +136,23 @@
                 <h1 style="color: var(--cor-texto-principal);">Experiência</h1>
                 <div class="exp-container">
                     <aside class="exp">
-                        <a href="#army">2014</a>
-                        <a href="#entry">2023</a>
-                        <a href="#trainee">2024</a>
                         <a href="#jr">2025</a>
+                        <a href="#trainee">2024</a>
+                        <a href="#entry">2023</a>
+                        <a href="#army">2014</a>
                     </aside>
                     <div style="display: flex; flex-direction: column; gap: 2rem;">
-                        <article class="exp-info" id="army">
-                            <h2>Auxiliar Administrativo</h2>
-                            <h4>12º BE Cmb Bld, Alegrete-RS</h4>
-                            <h5>maio 2014 – fev 2022</h5>
+                        <article class="exp-info" id="jr">
+                            <h2>Programador Front-End</h2>
+                            <h4>Cored Startup, Home Office</h4>
+                            <h5>fev 2025 – Atualmente</h5>
                             <p>
-                                - Estruturei e mantive registros administrativos, garantindo precisão e rastreabilidade das informações de pessoal.<br><br>
-                                - Automatizei a criação de atas e documentos oficiais, otimizando o fluxo de trabalho administrativo.<br><br>
-                                - Colaborei em equipe multidisciplinar para assegurar conformidade em processos internos.
+                                - Entreguei solução web e mobile integrada para startup, acelerando a validação do produto no mercado.<br><br>
+                                - Implementei telas com React.js para web e React Native para mobile.<br><br>
+                                - Criei componentes escaláveis alinhados ao design system da aplicação.
                             </p>
                         </article>
                         
-                        <article class="exp-info" id="entry">
-                            <h2>Programador Front-End</h2>
-                            <h4>Compass UOL, Home Office</h4>
-                            <h5>abr 2023 – nov 2023</h5>
-                            <p>
-                                - Aprimorei habilidades práticas em desenvolvimento front-end ao entregar soluções web durante o programa de bolsas.<br><br>
-                                - Construí interfaces responsivas utilizando HTML, CSS, JavaScript, TypeScript e React, aplicando conceitos de componentização.<br><br>
-                                - Melhorei a manutenção do código com componentes reutilizáveis alinhados a boas práticas de desenvolvimento.
-                            </p>
-                        </article>
-                        
-                        <article class="exp-info" id="trainee">
-                            <h2>Programador Front-End</h2>
-                            <h4>UNIPAMPA, Home Office</h4>
-                            <h5>jan 2024 – maio 2024</h5>
-                            <p>
-                                - Participei do processo de criação de uma aplicação Web de análise de sentimentos.<br><br>
-                                - Desenvolvi interface web com React.js e estilização dinâmica usando styled-components.<br><br>
-                                - Modelei componentes reutilizáveis, facilitando a manutenção e evolução do projeto.
-                            </p>
-                        </article>
-
                         <article class="exp-info">
                             <h2>Programador Front-End Trainee</h2>
                             <h4>Compass UOL, Home Office</h4>
@@ -187,14 +165,36 @@
                             </p>
                         </article>
 
-                        <article class="exp-info" id="jr">
+                        <article class="exp-info" id="trainee">
                             <h2>Programador Front-End</h2>
-                            <h4>Cored Startup, Home Office</h4>
-                            <h5>fev 2025 – Atualmente</h5>
+                            <h4>UNIPAMPA, Home Office</h4>
+                            <h5>jan 2024 – maio 2024</h5>
                             <p>
-                                - Entreguei solução web e mobile integrada para startup, acelerando a validação do produto no mercado.<br><br>
-                                - Implementei telas com React.js para web e React Native para mobile.<br><br>
-                                - Criei componentes escaláveis alinhados ao design system da aplicação.
+                                - Participei do processo de criação de uma aplicação Web de análise de sentimentos.<br><br>
+                                - Desenvolvi interface web com React.js e estilização dinâmica usando styled-components.<br><br>
+                                - Modelei componentes reutilizáveis, facilitando a manutenção e evolução do projeto.
+                            </p>
+                        </article>
+
+                        <article class="exp-info" id="entry">
+                            <h2>Programador Front-End</h2>
+                            <h4>Compass UOL, Home Office</h4>
+                            <h5>abr 2023 – nov 2023</h5>
+                            <p>
+                                - Aprimorei habilidades práticas em desenvolvimento front-end ao entregar soluções web durante o programa de bolsas.<br><br>
+                                - Construí interfaces responsivas utilizando HTML, CSS, JavaScript, TypeScript e React, aplicando conceitos de componentização.<br><br>
+                                - Melhorei a manutenção do código com componentes reutilizáveis alinhados a boas práticas de desenvolvimento.
+                            </p>
+                        </article>
+                        
+                        <article class="exp-info" id="army">
+                            <h2>Auxiliar Administrativo</h2>
+                            <h4>12º BE Cmb Bld, Alegrete-RS</h4>
+                            <h5>maio 2014 – fev 2022</h5>
+                            <p>
+                                - Estruturei e mantive registros administrativos, garantindo precisão e rastreabilidade das informações de pessoal.<br><br>
+                                - Automatizei a criação de atas e documentos oficiais, otimizando o fluxo de trabalho administrativo.<br><br>
+                                - Colaborei em equipe multidisciplinar para assegurar conformidade em processos internos.
                             </p>
                         </article>
                     </div>
@@ -243,22 +243,6 @@
             <p>2025.</p>
         </footer>
 
-        <script>
-            const burgerBtn = document.querySelector('header button');
-            const mobileMenu = document.querySelector('.header_list_mobile');
-
-            burgerBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('active');
-                burgerBtn.classList.toggle('active');
-            });
-
-            window.addEventListener('resize', () => {
-                if (window.innerWidth > 600) {
-                    mobileMenu.classList.remove('active');
-                    burgerBtn.classList.remove('active');
-                }
-            });
-        </script>
-
+        <script src="./script.js"></script>
     </body>
 </html>
